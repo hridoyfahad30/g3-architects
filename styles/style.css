@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -----------
+    All Fonts
+------------ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ----------------
+Primary Button
+------------------- */
+.primary-btn {
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+/* -----------
+   Header Style
+---------------- */
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+    height: 70px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+#site-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    color: #424242;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* ---------------
+Brand New Section Style
+------------------------ */
+.brand-new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 45px;
+}
+
+.brand-new-up {
+    margin-top: 50px;
+}
+
+.brand-new-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.brand-new-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.brand-new-img {
+    width: 1440px;
+    height: 700px;
+}
+
+/* ---------------
+Feature Section Style
+----------------------- */
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-content-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+#quick {
+    color: #727272;
+}
+
+#feature {
+    color: #FF900E;
+}
+
+.feature-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+/* ---------------------
+Second Feature Style
+--------------------- */
+
+.second-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 145px;
+}
+
+.second-feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 22px;
+
+}
+
+.second-feature-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.second-feature-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.second-feature-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.second-feature-card-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.second-feature-card-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#second-feature-img {
+    width: 700px;
+    height: 980px;
+}
+
+/* -------------------
+10 Years Button Style
+--------------------- */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -160px 0px 130px 60px;
+}
+
+.ten-years {
+    width: 342px;
+    height: 200px;
+    padding: 45px;
+}
+
+#ten-years {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#ten-yr {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+/* --------------------
+Some Facts Styly
+--------------------- */
+.some-fact-content {
+    margin-left: 240px;
+}
+
+.some-fact-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.some-fact-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+.some-fact-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-bottom: 180px;
+}
+
+.some-fact-card {
+    width: 170px;
+    height: 135px;
+    padding: 45px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.some-fact-card-img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.some-fact-card-title {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 5px;
+}
+
+.some-fact-card-details {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* ---------------------
+Sponsor Style
+--------------- */
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.sponsor-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.effect:hover {
+    filter: grayscale(1);
+}
+
+.sponsor-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+    margin-bottom: 130px;
+    filter: grayscale(0);
+}
+
+/* -----------------
+Footer Style
+----------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+    margin-bottom: 215px;
+    padding: 39px;
+    width: 1440px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+#footer {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
