@@ -122,6 +122,10 @@ Feature Section Style
     gap: 24px;
 }
 
+.feature-content{
+    padding-left: 10PX;
+}
+
 .feature-content-title {
     font-weight: 500;
     font-size: 45px;
@@ -210,7 +214,7 @@ Second Feature Style
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -160px 0px 90px 60px;
+    margin: -160px 0px 90px 90px;
     padding-bottom: 50px;
 }
 
@@ -324,6 +328,7 @@ Sponsor Style
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: -80px;
 }
 
 .sponsor-title {
@@ -343,17 +348,71 @@ Sponsor Style
     margin-bottom: 50px;
 }
 
-.effect:hover {
-    filter: grayscale(1);
-}
+/* .effect:hover {
+    filter: grayscale(0);
+} */
 
 .sponsor-image {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 155px;
-    margin-bottom: 130px;
+    margin-bottom: 50px;
+}
+.sponsor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+    filter: grayscale(1);
+}
+.sponsor-img:hover {
     filter: grayscale(0);
+}
+
+/* -------------
+New Added
+------------- */
+.added{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#f8b8b8 ; */
+    padding: 50px;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 25px;
+    color: #131313;
+}
+
+.content-details{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.search{
+    width: 650px;
+    height: 64px;
+    border-radius: 4em;
+    border-color: #FF900E;
+    background-color: rgba(252, 126, 9, 0.062);
+    padding-left: 100px;
 }
 
 /* -----------------
@@ -409,6 +468,31 @@ Primary Button
         margin-bottom: 20px;
     }
 
+    /*-----------------
+    Header Style
+    --------------  */
+
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .logo{
+        padding: 20px;
+    }
+
+    #site-title{
+        font-size: 36px;
+    }
+
+    .menu > ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+    }
+
     /* ---------------
 Brand New Section Style
 ------------------------ */
@@ -417,6 +501,7 @@ Brand New Section Style
         font-weight: 700;
         font-size: 32px;
         line-height: 35px;
+        margin-top: 60px;
         margin-bottom: 20px;
     }
 
@@ -624,6 +709,42 @@ Sponsor Style
 
     .sponsor-img {
         margin-top: -120px;
+    }
+
+    /* -------------------
+    Added Section Style
+    -------------------- */
+    .content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-title{
+        color: #131313;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .content-details{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .search{
+        width: 90%;
+        height: 40px;
+        border-radius: 4em;
+        border-color: #FF900E;
+        background-color: rgba(252, 126, 9, 0.062);
+        padding-left: 30px;
     }
 
     /* -----------------
