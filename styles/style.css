@@ -415,6 +415,73 @@ New Added
     padding-left: 100px;
 }
 
+/*------------------
+ Get In Touch Style 
+ -----------------*/
+ .get-touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #ff8f0e4b;
+    margin-bottom: 50px;
+ }
+
+ .get-in-touch-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 25px;
+    color: #131313;
+ }
+
+ .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .label{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 10px;
+ }
+
+ .fild{
+    height: 55px;
+    width: 300px;
+    border-radius: 1em;
+    border-color: #FF900E; 
+    padding-left: 20px;
+ }
+
+ input[type=text] {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+  }
+
+ input[type=email] {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+  }
+
+ .text-area{
+    border-radius: 1em;
+    border-color: #FF900E;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+    font-size: 20px;
+ }
+
 /* -----------------
 Footer Style
 ----------------- */
@@ -746,6 +813,66 @@ Sponsor Style
         background-color: rgba(252, 126, 9, 0.062);
         padding-left: 30px;
     }
+
+    /*------------------
+ Get In Touch Style 
+ -----------------*/
+ .get-touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #ff8f0e4b;
+    margin-bottom: 50px;
+ }
+
+ .get-in-touch-title{
+    color: #131313;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 35px;
+ }
+
+ .label{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 10px;
+ }
+
+ .fild{
+    height: 35px;
+    width: 80%;
+    border-radius: 1em;
+    border-color: #FF900E; 
+    padding-left: 20px;
+ }
+
+ input[type=text] {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+  }
+
+  input[type=email] {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+  }
+
+  .text-area{
+    border-radius: 1em;
+    border-color: #FF900E;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #000000;
+    background-color: rgba(89, 90, 88, 0.281);
+    font-size: 14px;
+ }
 
     /* -----------------
 Footer Style
